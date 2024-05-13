@@ -1,0 +1,11 @@
+/* styles.css */
+
+/* Estilos para os elementos do jogo */
+
+/* Estilo para as torres */
+.tower {
+    width: 50px;
+    height: 50px;
+    background-image: url('../images/tower.png'); /* Caminho para a imagem da torre */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir o elemento */
+}
