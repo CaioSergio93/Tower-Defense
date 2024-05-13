@@ -9,3 +9,43 @@
     background-image: url('../images/tower.png'); /* Caminho para a imagem da torre */
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir o elemento */
 }
+
+/* styles.css */
+
+/* Estilos para o menu */
+#menu-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#menu-container h1 {
+    font-size: 36px;
+}
+
+#menu-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#menu-container ul li {
+    margin-bottom: 20px;
+}
+
+#menu-container ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+}
+
+/* styles.css */
+
+/* Estilos para o mapa do jogo */
+#map {
+    width: 800px; /* Ajuste de acordo com o tamanho do seu mapa */
+    height: 600px; /* Ajuste de acordo com o tamanho do seu mapa */
+    background-color: #ccc; /* Cor de fundo temporária */
+    margin: 0 auto; /* Centraliza o mapa na tela */
+}
